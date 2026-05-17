@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (không commit data thật lên repo)
+data/*.csv
+!data/.gitkeep
+
+# Best params (sẽ được generate khi chạy tuning)
+best_params/*.csv
+!best_params/.gitkeep
+
+# Ensemble predictions (generated outputs)
+Ensemble/predictions_*.csv
+
+# macOS
+.DS_Store
