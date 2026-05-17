@@ -1,0 +1,7 @@
+,0
+n_estimators,100.0
+max_depth,4.0
+learning_rate,0.1
+subsample,0.8
+colsample_bytree,0.8
+auc,0.0
